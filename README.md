@@ -47,6 +47,10 @@ pip install pandas
 ## Deployment
 Make sure the port in which you are the project is not being used by any other is application.
 Execute python run_server.py
+
+## API Requirements
+Request:GET method
+Response: Content-Type=JSON, {'result':[...]}
 ## Built With
 
 * [Python3](https://www.python.org/downloads/) - The programming language used
